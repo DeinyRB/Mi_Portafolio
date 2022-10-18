@@ -5,8 +5,51 @@
 
 header {
     background-image: url(./ma1.webp);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; /*para que la imagen no se repita*/
     width: 100%;
-    background-size: cover; /*abarca el espacio disponible*/
-    padding-bottom: 400px;
+    background-size: cover; /*la imagen abarca el espacio disponible*/
+    padding-bottom: 150px;
+}
+
+h1 {
+    text-align:right;
+    color: white;
+    padding-top: 100px;
+    padding-right: 80px;
+    font-family: cursive;
+}
+
+h3 {
+    text-align:right;
+    color: white;
+    padding-right: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#boton {
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 150px;
+   margin-right: 80px;
+}
+
+button {
+    padding: 15px 35px;
+    background-color: transparent;
+    border: 1px solid rgb(100, 100, 100);
+    box-shadow: 3px 6px 18px 0px rgba(0,0,0,0.46); /*codogo formado por la pagina box-shadow*/
+    -webkit-box-shadow: 3px 6px 18px 0px rgba(0,0,0,0.46);
+    -moz-box-shadow: 3px 6px 18px 0px rgba(0,0,0,0.46);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: black;
+    padding-top: 300px;
+    font-size:xx-large;
 }
