@@ -1,0 +1,12 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+header {
+    background-image: url(./ma1.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover; /*abarca el espacio disponible*/
+    padding-bottom: 400px;
+}
